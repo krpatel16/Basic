@@ -15,6 +15,7 @@
 
 #ifdef WRITE_TEXT
 
+       int num11;
        int num;
        FILE *fptr;
        fptr = fopen("E:\\sample.txt","w");
