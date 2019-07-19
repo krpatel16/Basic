@@ -19,15 +19,15 @@ class box
 
 	void set_volume(int siz)
 	{
-	  vol = siz;
+	   vol = siz;
 	}
 
-    int get_volume()
-    {
-        cout << "reqire volume is = " << vol;
-        cout << endl;
-        return vol;
-    }
+        int get_volume()
+        {
+          cout << "reqire volume is = " << vol;
+          cout << endl;
+          return vol;
+        }
 
 	~box()
 	{
@@ -35,14 +35,15 @@ class box
 	}
 	int volume()
 	{
-		int size;
-		size = h * w * d;
-		cout << "Calculted Volume = ";
-        cout << size << endl;
-		return size;
+	    int size;
+	    size = h * w * d;
+	    cout << "Calculted Volume = ";
+            cout << size << endl;
+	    return size;
 	}
 
 };
+
 int main()
 {
     int size;
